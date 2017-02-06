@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 '''
     Generate github wiki markdown file's link references.
 '''
