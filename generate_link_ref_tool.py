@@ -14,12 +14,12 @@ times = None
 def generate_link(link):
     # print link
     original_link = link.replace('#','').strip()
+    link = link.strip()
     number_of_sharp = 0
     for x in link:
         if x != '#':
             break
         number_of_sharp += 1
-    
     link = link.strip().replace('# ', '').replace(' ', '-')
    # print link
     result = ""
